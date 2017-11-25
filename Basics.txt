@@ -1,0 +1,44 @@
+npm installer 8.9.1
+ch03.1: Globals are defined here: https://nodejs.org/api/globals.html
+template string `${var}`
+
+
+ch03.2: Process objects : https://nodejs.org/api/process.html 
+can grab arguments in the example
+
+ch03.3: process std for communicating with the child processes
+
+ch03.4 Global timing functions
+setTimeout( function(){
+	console.log("print timeout")
+}, waitTime)
+setInterval( function(){
+	console.log("print heartbeat")
+}, intervalTime)
+clearInterval
+
+
+ch04.1 core modules path, utils- used for logging in file
+
+ch04.2 readline for user interaction
+
+ch04.3 event emitter goo.gl/vDnX65 (for help)
+
+ch04.4 About the reusable module
+
+ch06.1 creatibg https requests
+
+ch06.4 : building an JSON based API server
+
+node-dev - restart application when source is chanegd
+npm -g node-dev
+
+npm install -g jshint
+
+npmjs.com : site for several nodejs community modules
+
+ch 04.4 httpster : static file server 
+
+ch08 : Express, cors and bodyparser
+
+ch09 : websocket
