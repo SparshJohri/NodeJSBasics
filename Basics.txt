@@ -26,7 +26,9 @@ ch04.3 event emitter goo.gl/vDnX65 (for help)
 
 ch04.4 About the reusable module
 
-ch06.1 creatibg https requests
+ch05 : files - especially the streams in 5-7 & 5-8
+
+ch06.1 creating https requests
 
 ch06.4 : building an JSON based API server
 
@@ -39,6 +41,26 @@ npmjs.com : site for several nodejs community modules
 
 ch 04.4 httpster : static file server 
 
-ch08 : Express, cors and bodyparser
+ch06 : http module 6.1 making a request, 6-2 building a server, 6-3 serving JSON data
 
-ch09 : websocket
+7-4 building a file server with httpster
+
+ch08 : Express, cors and bodyparser 8-1 package.json file 8-2 intro to express 8-3 express routing and CORS 8-4 body-params
+
+ch09 : websocket "ws" module socket.io could be used with browsers which do not support socket.io
+9-1 creating a websocket server 9-2 broadcasting messages
+
+10: test framework - 
+mocha test framework
+chai - tests 
+mocking the server - Nock
+injecting dependency rewire
+sinon spies
+code coverage Istambul
+testing http end points with super test
+checking server responses with Cheerio
+
+
+11: grunt for automation
+rapid dev with grunt watches
+automation with npm
